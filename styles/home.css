@@ -73,3 +73,39 @@ display:flex;
     right:0;
     z-index:1;
 }
+
+@media screen and (max-width:1170px) {
+    .shape{
+        display:none;
+    }
+
+    #home{
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .banner img{
+        height:30rem;
+    }
+
+    .cta-buttons{
+        flex-direction:column;
+        
+    }
+
+    .cta{
+        width:100%;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .descricao{
+        font-size: 1rem;
+        text-align: center;
+
+    }
+}

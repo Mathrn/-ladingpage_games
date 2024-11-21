@@ -58,3 +58,16 @@
     color: var(--color-primary-3);
 
 }
+
+@media screen and (max-width:1170px) {
+    #depoimentos{
+        flex-direction:column;
+
+    }
+    .feedback{
+        flex-direction: column;
+    }
+    .img-chefe{
+        height:250px
+    }
+}
